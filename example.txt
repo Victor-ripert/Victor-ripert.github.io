@@ -1,0 +1,4 @@
+42SH : réplique du shell tcsh en C (en groupe de 5, pendant 4 semaines)
+CUDDLE : réplique de la bibliothèque python Pandas en C (en binome, pendant 2 semaines)
+My_Sudo : réplique de la commande Sudo en C (en binomen, pendant 3 semaine)
+Tardis : modèle de prediction de retard ferroviaire en machine learning avec le framework sickit-learn (en groupe de 3, pendnat 6 semaines)

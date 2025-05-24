@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <script src="src/main.js"></script> -->
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Faites le bon choix : <br> <span class="highlight">Victor Ripert</span></h1>
+                <h2>Étudiant à Epitech Paris</h2>
+                <p>Je suis à la recherche d'un stage en informatique de 4 à 6 mois, entre Juillet et Décembre.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder" id="vic-profile-picture">
+                    <!-- Profile image placeholder -->
+                    <!-- <i class="fas fa-user-circle"></i> -->
+                     <img src="img/victor.ripert@epitech.eu.jpg" alt="profile-picture" class="vic-pp">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Bonjour ! Je suis actuellement étudiant à Epitech, sur le campus de Paris. J'y ai appris l'un des plus anciens langages informatiques : le C. Que j'utilise la plupart du temps. Mais aussi le Python, le Bash, le Javascript ainsi que l'utilisation de divers logiciels cruciaux dans le monde de l'informatique (Docker, Git, …)</p>
+                    <p>Étant quelqu'un d'extrêmement curieux, passionné par les sciences sociales, la physique ou encore les mathématiques, je ne me lasse jamais d'apprendre.</p>
+                    <p>En outre, je suis à la recherche d'un stage de 6 mois, à partir de juillet 2025. Ce serait l'occasion idéale pour approfondir mes compétences en informatique et étendre mes connaissances.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <h3>Formation</h3>
+                            <p>Première année à Epitech</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Experience</h3>
+                            <p>Spécialité NSI et Piscine d'Epitech</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Localisation</h3>
+                            <p>Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Langages informatiques</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>C</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript / TypeScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Bash</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Dev Ops / Outils</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Git</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Github Action / Project</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Canva</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>System UNIX</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>42SH - Shell TCSH</h3>
+                        <p>Création d'un interpréteur de commande UNIX basée sur TCSH. <br> En groupe de 5 personnes.</p>
+                        <div class="project-tags">
+                            <span>C</span>
+                            <span>Unix/Linux</span>
+                            <span>Git</span>
+                            <span>Test unitaires</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Victor-ripert/42SH" class="btn small-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cuddle - Lib Pandas en C</h3>
+                        <p>Recréation de la bibliothèque Pandas de manipulation de données et fichier CSV.</p>
+                        <div class="project-tags">
+                            <span>C</span>
+                            <span>Algotithmes</span>
+                            <span>Git</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tardis</h3>
+                        <p>Modèle de prédiction en machine learning du retard des trains, selon les donnés de la SNCF.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Sickit-Learn</span>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Epytodo</h3>
+                        <p>Backend d'un site web de Todo list, en TypeScript avec Express et Mariadb</p>
+                        <div class="project-tags">
+                            <span>Javascript</span>
+                            <span>Typescript</span>
+                            <span>Express</span>
+                            <span>Dotenv</span>
+                            <span>Mysql / Mariadb</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Corewar</h3>
+                        <p>Recréation du jeu Corewar en C, en binome pendant 5 semaines</p>
+                        <div class="project-tags">
+                            <span>C</span>
+                            <span>Bitwise Operator</span>
+                            <span>Je sais pas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>victor.ripert@epitech.eu</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-university"></i>
+                        <h3>Université</h3>
+                        <p>Epitech, 24 rue pasteur, Kremlin-Bicêtre</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Localisation</h3>
+                        <p>Paris, France</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/victor-ripert/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Victor-ripert" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram" target="_blank"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form method="post" action="http://localhost:3000/">
+                        <div class="form-group">
+                            <input type="text" name="nom" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="sujet" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="msg" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn" id="sendMsgButton">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Victor Ripert. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
